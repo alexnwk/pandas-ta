@@ -14,6 +14,7 @@ Pandas TA - A Technical Analysis Library in Python 3
 [![Contributors](https://img.shields.io/badge/contributors-19-orange.svg?style=flat)](#contributors-)
 ![Example Chart](/images/TA_Chart.png)
 
+This fork makes pandas-ta compatible with the latest version of numpy. 
 
 _Pandas Technical Analysis_ (**Pandas TA**) is an easy to use library that leverages the Pandas library with more than 130 Indicators and Utility functions. Many commonly used indicators are included, such as: _Simple Moving Average_ (**sma**) _Moving Average Convergence Divergence_ (**macd**), _Hull Exponential Moving Average_ (**hma**), _Bollinger Bands_ (**bbands**), _On-Balance Volume_ (**obv**), _Aroon & Aroon Oscillator_ (**aroon**), _Squeeze_ (**squeeze**) and **_many more_**.
 
@@ -80,22 +81,9 @@ Stable
 ------
 The ```pip``` version is the last most stable release. Version: *0.2.45b*
 ```sh
-$ pip install pandas_ta
+$ pip install -U git+https://github.com/alexnwk/pandas-ta.git
 ```
 
-Latest Version
---------------
-Best choice! Version: *0.2.67b*
-```sh
-$ pip install -U git+https://github.com/twopirllc/pandas-ta
-```
-
-Cutting Edge
-------------
-This is the _Development Version_ which could have bugs and other undesireable side effects. Use at own risk!
-```sh
-$ pip install -U git+https://github.com/twopirllc/pandas-ta.git@development
-```
 
 <br/>
 
